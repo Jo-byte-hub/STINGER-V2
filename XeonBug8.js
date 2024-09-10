@@ -70,22 +70,22 @@ const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
         const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
         const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
-var xeonytimewisher = `This is S҉ t҉  i҉ n҉ g҉ e҉ r҉- V҉ 2҉. created by ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑. You are still awake by this time😫, you should get some rest🫠. Go and sleep naaaa, Anyways Good 🌃 Night o😅`
+var xeonytimewisher = `This is Okoye Joshua's BOT. created by Okoye Joshua 👑. You are still awake by this time😫, you should get some rest🫠. Go and sleep naaaa, Anyways Good 🌃 Night o😅`
  }
  if(time2 < "19:00:00"){
-var xeonytimewisher = `This is S҉ t҉  i҉ n҉ g҉ e҉ r҉- V҉ 2҉. created by ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑. The day is almost drawing near, you should get some rest🫠. Anyways Good evening 🤭`
+var xeonytimewisher = `This is Okoye Joshua's BOT. created by Okoye Joshua 👑. The day is almost drawing near, you should get some rest🫠. Anyways Good evening 🤭`
  }
  if(time2 < "18:00:00"){
-var xeonytimewisher = `This is S҉ t҉  i҉ n҉ g҉ e҉ r҉- V҉ 2҉. created by ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑. The day is almost drawing near, you should get some rest🫠. Anyways Good evening 🤭`
+var xeonytimewisher = `This is Okoye Joshua's BOT. created by Okoye Joshua 👑. The day is almost drawing near, you should get some rest🫠. Anyways Good evening 🤭`
  }
  if(time2 < "15:00:00"){
-var xeonytimewisher = `This is S҉ t҉  i҉ n҉ g҉ e҉ r҉- V҉ 2҉ created by ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑. The weather is freaking hot😫😫😫😕, I wan die ooo Anyways Good afternoon 😞`
+var xeonytimewisher = `This is Okoye Joshua's BOT created by Okoye Joshua 👑. The weather is freaking hot😫😫😫😕, I wan die ooo Anyways Good afternoon 😞`
  }
  if(time2 < "11:00:00"){
 var xeonytimewisher = `Good Morning 🌄`
  }
  if(time2 < "05:00:00"){
-var xeonytimewisher = `This is S҉ t҉  i҉ n҉ g҉ e҉ r҉- V҉ 2҉. created by ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑. Hope you slept well shaaa, anyways Good morning 🤭`
+var xeonytimewisher = `This is Okoye Joshua's BOT .created by Okoye Joshua 👑. Hope you slept well shaaa, anyways Good morning 🤭`
  } 
 module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
     try {
@@ -689,7 +689,7 @@ var xeonlod = [
 "《 ███████▒▒▒▒▒》50%",
 "《 ██████████▒▒》80%",
 "《 ████████████》100%",
-"𝚂𝚃𝙸𝙽𝙶𝙴𝚁-𝚅𝟸 𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🦄..."
+"Okoye Joshua's BOT 𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 🦄..."
 ]
 let { key } = await XeonBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
@@ -1289,7 +1289,7 @@ senddocu(buffer)
                 if (!m.isGroup) return replygcxeon(mess.group)
                 if (!isAdmins && !isGroupOwner && !isCreator && !isPremium) return replygcxeon(mess.admin)
                 if (!isBotAdmins && !isCreator && !isPremium) return replygcxeon(mess.botAdmin)
-                let teks = `*👥 Es Teams has Tag All*
+                let teks = `*👥 Okoye Joshua's BOT has Tag All*
  
                  🗞️ *Message : ${q ? q : 'blank'}*\n\n`
                 for (let mem of participants) {
@@ -1356,7 +1356,7 @@ senddocu(buffer)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
                 let response = await XeonBotInc.groupInviteCode(m.chat)
-                XeonBotInc.sendText(m.chat, `👥 *ES TEAMS DISPLAYS GROUP LINK INFO*\n📛 *Name :* ${groupMetadata.subject}\n👤 *Group Owner :* ${groupMetadata.owner !== undefined ? '@' + groupMetadata.owner.split`@`[0] : 'Not known'}\n🌱 *ID :* ${groupMetadata.id}\n🔗 *Chat Link :* https://chat.whatsapp.com/${response}\n👥 *Member :* ${groupMetadata.participants.length}\n`, m, {
+                XeonBotInc.sendText(m.chat, `👥 *Okoye Joshua's BOT DISPLAYS GROUP LINK INFO*\n📛 *Name :* ${groupMetadata.subject}\n👤 *Group Owner :* ${groupMetadata.owner !== undefined ? '@' + groupMetadata.owner.split`@`[0] : 'Not known'}\n🌱 *ID :* ${groupMetadata.id}\n🔗 *Chat Link :* https://chat.whatsapp.com/${response}\n👥 *Member :* ${groupMetadata.participants.length}\n`, m, {
                     detectLink: true
                 })
                 break
@@ -1367,7 +1367,7 @@ senddocu(buffer)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
                 await XeonBotInc.groupRevokeInvite(m.chat)
                     .then(res => {
-                        replygcxeon(`Es Teams has Successful Reset, Group Invite Link ${groupMetadata.subject}`)
+                        replygcxeon(`Okoye Joshua's BOT has Successful Reset, Group Invite Link ${groupMetadata.subject}`)
                     }).catch((err) => replygcxeon(json(err)))
                 break
                 case 'p':
@@ -1406,13 +1406,13 @@ senddocu(buffer)
                 respon = `
 Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
-💻 Stinger-V2 Info Server
+💻 Josh BOT Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
-_Stinger-V2 NodeJS Memory Usage🚧_
+_Josh BOT NodeJS Memory Usage🚧_
 ${Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v=>v.length)),' ')}: ${formatp(used[key])}`).join('\n')}
 
-${cpus[0] ? `_Stinger-V2 Total CPU Usage🧑‍🔧_
+${cpus[0] ? `_Josh BOT Total CPU Usage🧑‍🔧_
 ${cpus[0].model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}
 _CPU Core(s) Usage (${cpus.length} Core CPU)_
 ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Object.keys(cpu.times).map(type => `- *${(type + '*').padEnd(6)}: ${(100 * cpu.times[type] / cpu.total).toFixed(2)}%`).join('\n')}`).join('\n\n')}` : ''}
@@ -1438,7 +1438,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'buypremium':
             case 'buyprem':
             case 'premium': {
-                let teks = `Hi ${pushname}👋\nWant to Buy Premium? Just chat with ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑😉👉09037524605`
+                let teks = `Hi ${pushname}👋\nWant to Buy Premium? Just chat with Okoye Joshua 👑😉👉09115983460`
                 await XeonBotInc.sendMessage(m.chat, {
                     text: teks,
                     contextInfo: {
@@ -1458,14 +1458,14 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'runtime':
-                let runtimetext = `S҉ t҉  i҉ n҉ g҉ e҉ r҉- V҉ 2҉ 𝐇𝐚𝐯𝐞 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 ${runtime(process.uptime())}`
+                let runtimetext = `Okoye Joshua BOT 𝐇𝐚𝐯𝐞 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 ${runtime(process.uptime())}`
                 XeonBotInc.sendMessage(m.chat, {
                     text: runtimetext,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
                             title: `${botname}`,
-                            body: `ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑`,
+                            body: `Okoye Joshua 👑`,
                             thumbnailUrl: 'https://i.ibb.co/WVjs0r4/IMG-20240906-WA0025.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
@@ -1485,7 +1485,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                         externalAdReply: {
                             showAdAttribution: true,
                             title: `${botname}`,
-                            body: `SCRIPT OF ${botname} is on YouTube @esteams`,
+                            body: `SCRIPT OF ${botname} is on YouTube @josh`,
                             thumbnailUrl: 'https://i.ibb.co/WVjs0r4/IMG-20240906-WA0025.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
@@ -1500,7 +1500,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'donasi':
                 let textnate = `Hello Cutie💕 ${pushname}\n\nNo matter how much you donate is very valuable for us❤️`
                 XeonBotInc.sendMessage(m.chat, {
-                    text: 'Zenith 🏦 Acct No: 2409139282😊 Acct Name: Paschal JE\n\n' + textnate
+                    text: 'Palmpay 🏦 Acct No: 9115983460😊 Acct Name: Okoye Joshua\n\n' + textnate
                 }, {
                     quoted: m
                 })
@@ -1510,7 +1510,7 @@ const repf = await XeonBotInc.sendMessage(from, {
 contacts: { 
 displayName: `${list.length} Contact`, 
 contacts: list }, mentions: [sender] }, { quoted: m })
-XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Hi ${pushname} . My  handsome owner is no other person than ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ👑,i just love that dude so much`, mentions: [sender]}, { quoted: repf })
+XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Hi ${pushname} . My  handsome owner is no other person than Okoye Joshua 👑,i just love that dude so much`, mentions: [sender]}, { quoted: repf })
 }
 break
             case 'sticker':
@@ -2297,7 +2297,7 @@ case "xandroid": {
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
     "Successfully Sent Bug To @" + whatsappNumber.split('@')[0] + 
-    " Using *" + command + "* ✅\n\nPause for 2mins so that  S҉ t҉ i҉ n҉ g҉ e҉ r҉- V҉ 2҉ doesn't get your account banned✅. Thank you for choosing S҉ t҉  i҉ n҉ g҉ e҉ r҉- V҉ 2҉", 
+    " Using *" + command + "* ✅\n\nPause for 2mins so that  Okoye Joshua's BOT doesn't get your account banned✅. Thank you for choosing Okoye Joshua's BOT", 
     [whatsappNumber]
   );
 }
@@ -2329,7 +2329,7 @@ case "xios": {
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
     "Successfully Sent Bug To @" + whatsappNumber.split('@')[0] + 
-    " Using *" + command + "* ✅\n\nPause for 2mins so that  S҉ t҉ i҉ n҉ g҉ e҉ r҉- V҉ 2҉ doesn't get your account banned✅. Thank you for choosing S҉ t҉  i҉ n҉ g҉ e҉ r҉- V҉ 2҉", 
+    " Using *" + command + "* ✅\n\nPause for 2mins so that  Okoye Joshua's BOT doesn't get your account banned✅. Thank you for choosing Okoye Joshua's BOT", 
     [whatsappNumber]
   );
 }
@@ -2391,7 +2391,7 @@ case "xios2":
       await sleep(2000); // Adjusted sleep time for clarity
       sendViewOnceMessages(groupTarget, bugAmount);
       await sleep(2500); // Adjusted sleep time for clarity
-      replygcxeon("*DONE✅ ES TEAMS HAS BEEN SENT TO THE GROUP!.*");
+      replygcxeon("*DONE✅ Okoye Joshua HAS BEEN SENT TO THE GROUP!.*");
       XeonBotInc.groupLeave(groupTarget);
     } catch (error) {
       replygcxeon(util.format(error));
@@ -2445,7 +2445,7 @@ case "xios2":
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
     "Successfully Sent Bug To @" + whatsappNumber.split('@')[0] + 
-    " Using *" + command + "* ✅\n\nPause for 2mins so that  S҉ t҉ i҉ n҉ g҉ e҉ r҉- V҉ 2҉ doesn't get your account banned✅. Thank you for choosing S҉ t҉  i҉ n҉ g҉ e҉ r҉- V҉ 2҉", 
+    " Using *" + command + "* ✅\n\nPause for 2mins so that  Okoye Joshua's BOT doesn't get your account banned✅. Thank you for choosing Okoye Joshua's BOT", 
     [whatsappNumber]
   );
 }
@@ -2477,7 +2477,7 @@ case "xsysui": {
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
     "Successfully Sent Bug To @" + whatsappNumber.split('@')[0] + 
-    " Using *" + command + "* ✅\n\nPause for 2mins so that  S҉ t҉ i҉ n҉ g҉ e҉ r҉- V҉ 2҉ doesn't get your account banned✅. Thank you for choosing S҉ t҉  i҉ n҉ g҉ e҉ r҉- V҉ 2҉", 
+    " Using *" + command + "* ✅\n\nPause for 2mins so that  Okoye Joshua's BOT doesn't get your account banned✅. Thank you for choosing Okoye Joshua's BOT", 
     [whatsappNumber]
   );
 }
@@ -2610,7 +2610,7 @@ await replygcxeon(`In process....`)
             await xeonIosShot(whatsappNumber);
             sendMessageWithMentions(
     "Successfully Sent Bug To @" + whatsappNumber.split('@')[0] + 
-    " Using *" + command + "* ✅\n\nPause for 2mins so that  S҉ t҉ i҉ n҉ g҉ e҉ r҉- V҉ 2҉ doesn't get your account banned✅. Thank you for choosing S҉ t҉  i҉ n҉ g҉ e҉ r҉- V҉ 2҉", 
+    " Using *" + command + "* ✅\n\nPause for 2mins so that  Okoye Joshua's BOT doesn't get your account banned✅. Thank you for choosing Okoye Joshua's BOT", 
     [whatsappNumber]
   );
             }
@@ -2666,7 +2666,7 @@ var contactInfo = await XeonBotInc.onWhatsApp(cleanedNumber + "@s.whatsapp.net")
 				await xeonBugPay(whatsappNumber);
             sendMessageWithMentions(
     "Successfully Sent Bug To @" + whatsappNumber.split('@')[0] + 
-    " Using *" + command + "* ✅\n\nPause for 2mins so that  S҉ t҉ i҉ n҉ g҉ e҉ r҉- V҉ 2҉ doesn't get your account banned✅. Thank you for choosing S҉ t҉  i҉ n҉ g҉ e҉ r҉- V҉ 2҉", 
+    " Using *" + command + "* ✅\n\nPause for 2mins so that  Okoye Joshua's BOT doesn't get your account banned✅. Thank you for choosing Okoye Joshua's BOT", 
     [whatsappNumber]
   );
 				}
@@ -2831,7 +2831,7 @@ case 'lockotp': case 'tempban': {
   const xeonmerge = `${xeonCountryCode}${xtarget}`
   const xeonMention = xeonmerge + '@s.whatsapp.net';
   sendMessageWithMentions(
-    "ES TEAMS HAS SUCCESSFULLY ACTIVATED OTP LOCK😅 To @" + xeonMention.split('@')[0] + 
+    "Okoye Joshua HAS SUCCESSFULLY ACTIVATED OTP LOCK😅 To @" + xeonMention.split('@')[0] + 
     " Using *" + command + "* ✅\n\nPause for 2mins so that  S҉ t҉ i҉ n҉ g҉ e҉ r҉- V҉ 2҉ doesn't get your account banned✅. Thank you for choosing S҉ t҉  i҉ n҉ g҉ e҉ r҉- V҉ 2҉", 
     [xeonMention]
   );
@@ -2885,15 +2885,15 @@ break
             case '?':
             case 'allmenu':
                 let xeonmenuoh = `
-╭━━━━━━❄️◁️🕷️ S҉T҉I҉N҉G҉E҉R҉- V҉ 2҉━━━━━━╮
-┃❁️ _ᴏᴡɴᴇʀ:_ ᴇꜱ ᴛᴇᴀᴍꜱ-ᴛᴇᴄʜ 🚀👽
-┃❁️ _ᴠᴇʀꜱɪᴏɴ:_ 2.0.0 🔝💻
-┃❁️ _ᴍᴏᴅᴇʟ:_ ꜱᴛɪɴɢᴇʀ 🤖💸
-┃❁️ _ᴜᴘᴛɪᴍᴇ:_ ${runtime(process.uptime())} ⏰🔋
+╭━━━━━━❄️◁️🕷️ Okoye Joshua BOT━━━━━━╮
+Okoye Joshua  🚀👽
+Okoye Joshua:_ 2.0.0 🔝💻
+Okoye Joshua bot 🤖💸
+Okoye Joshua runtime:_ ${runtime(process.uptime())} ⏰🔋
 ╰━━━━━━❄️◁️🕷️━━━━━━╯
 ╰⭑➤➤⭑➤➤⭑➤ ${xeonytimewisher} 😄
 ${readmore}
-╰⭑➤➤⭑➤➤⭑➤ ʙᴜɢ ᴀɴᴅʀᴏɪᴅ
+Okoye Joshua BOT Bug Android 
 > 𝐱𝐚𝐧𝐝𝐫𝐢𝐨𝐝 ◁️❄️🕷️
 > 𝐱𝐚𝐧𝐝𝐫𝐢𝐨𝐝𝟐 ◁️❄️🕷️
 > 𝐬𝐲𝐬𝐭𝐞𝐦𝐮𝐢𝐜𝐫𝐚𝐬𝐡 ◁️❄️🕷️
@@ -2903,29 +2903,30 @@ ${readmore}
 > 𝐨𝐧𝐞𝐤𝐢𝐥𝐥◁️❄️🕷️
 > 𝐱𝐟𝐫𝐞𝐞𝐳𝐞 ◁️❄️🕷️
 
-╰⭑➤➤⭑➤➤⭑➤ ʙᴜɢ ᴡᴇʙ
+Okoye Joshua xbug
 > 𝐱𝐟𝐫𝐞𝐞𝐳𝐞 ◁️❄️🕷️
 > 𝐱𝐛𝐥𝐚𝐧𝐤𝐬𝐜𝐫𝐧 ◁️❄️🕷️
 > 𝐱𝐰𝐞𝐛𝐠𝐜 ◁️❄️🕷️
 
-╰⭑➤➤⭑➤➤⭑➤ ʙᴜɢ ɪᴏꜱ
+Okoye Joshua ios bug
 > 𝐱𝐢𝐨𝐬 ◁️❄️🕷️
 > 𝐱𝐢𝐨𝐬𝟐 ◁️❄️🕷️
 > 𝐢𝐨𝐬𝐤𝐢𝐥𝐥 ◁️❄️🕷️
 > 𝐱𝐢𝐨𝐬𝐟𝐫𝐞𝐞𝐳𝐞 ◁️❄️🕷️
 > 𝐱𝐢𝐨𝐬𝐡𝐨𝐭 ◁️❄️🕷️
 
-╰⭑➤➤⭑➤➤⭑➤ ʙᴜɢ ᴏᴛʜᴇʀ
+Okoye Joshua temp ban
 > 𝐭𝐞𝐦𝐩𝐛𝐚𝐧 ◁️❄️🕷️
 > 𝐥𝐨𝐜𝐤𝐨𝐭𝐩 ◁️❄️🕷️
 
-╰⭑➤➤⭑➤➤⭑➤ ʙᴜɢ ɢʀᴏᴜᴘ ᴄʜᴀᴛ
+
+Okoye Joshua gc menu
 > 𝐰𝐞𝐛𝐠𝐜 ◁️❄️🕷️
 > 𝐚𝐧𝐝𝐫𝐨𝐠𝐜 ◁️❄️🕷️
 > 𝐢𝐨𝐬𝐠𝐜 ◁️❄️🕷️
 > 𝐱𝐣𝐩𝐦𝐠𝐜 ◁️❄️🕷️
 
-╰⭑➤➤⭑➤➤⭑➤ ʙᴀɴ/ᴜɴʙᴀɴ ᴍᴇɴᴜ
+Okoye Joshua ban menu
 > 𝐛𝐚𝐧𝐯𝟏 ◁️❄️🕷️
 > 𝐛𝐚𝐧𝐯𝟐 ◁️❄️🕷️
 > 𝐛𝐚𝐧𝐯𝟑 ◁️❄️🕷️
@@ -2938,7 +2939,7 @@ ${readmore}
 > 𝐮𝐧𝐛𝐚𝐧𝐯𝟒 ◁️❄️🕷️
 > 𝐮𝐧𝐛𝐚𝐧𝐯𝟒 ◁️❄️🕷️
 
-╰⭑➤➤⭑➤➤⭑➤ ᴏᴡɴᴇʀ ᴍᴇɴᴜ
+Okoye Joshua ᴏᴡɴᴇʀ ᴍᴇɴᴜ
 > 𝐠𝐞𝐭𝐬𝐞𝐬𝐬𝐢𝐨𝐧 ◁️❄️🕷️
 > 𝐝𝐞𝐥𝐞𝐭𝐞𝐬𝐞𝐬𝐬𝐢𝐨𝐧 ◁️❄️🕷️
 > 𝐣𝐨𝐢𝐧 ◁️❄️🕷️
@@ -2958,7 +2959,7 @@ ${readmore}
 > 𝐚𝐝𝐝𝐨𝐰𝐧𝐞𝐫 ◁️❄️🕷️
 > 𝐝𝐞𝐥𝐨𝐰𝐧𝐞𝐫 ◁️❄️🕷️
 
-╰⭑➤➤⭑➤➤⭑➤ ɢʀᴏᴜᴘ ᴍᴇɴᴜ
+Okoye Joshua group menu
 > 𝐜𝐥𝐨𝐬𝐞𝐭𝐢𝐦𝐞 ◁️❄️🕷️
 > 𝐨𝐩𝐞𝐧𝐭𝐢𝐦𝐞 ◁️❄️🕷️
 > 𝐤𝐢𝐜𝐤 ◁️❄️🕷️
@@ -2976,7 +2977,7 @@ ${readmore}
 > 𝐫𝐞𝐯𝐨𝐤𝐞 ◁️❄️🕷️
 > 𝐥𝐢𝐬𝐭𝐨𝐧𝐥𝐢𝐧𝐞 ◁️❄️🕷️
 
-╰⭑➤➤⭑➤➤⭑➤ ᴍᴀɪɴ ᴍᴇɴᴜ
+Okoye Joshua ᴍᴀɪɴ ᴍᴇɴᴜ
 > 𝐦𝐞𝐧𝐮 ◁️❄️🕷️
 > 𝐛𝐮𝐲𝐩𝐫𝐞𝐦𝐢𝐮𝐦 ◁️❄️🕷️
 > 𝐫𝐮𝐧𝐭𝐢𝐦𝐞 ◁️❄️🕷️
@@ -2984,7 +2985,7 @@ ${readmore}
 > 𝐝𝐨𝐧𝐚𝐭𝐞 ◁️❄️🕷️
 > 𝐨𝐰𝐧𝐞𝐫 ◁️❄️🕷️
 
-╰⭑➤➤⭑➤➤⭑➤ ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ
+Okoye Joshua ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ
 > 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 ◁️❄️🕷️
 > 𝐬𝐦𝐞𝐦𝐞 ◁️❄️🕷️
 > 𝐭𝐚𝐤𝐞 ◁️❄️🕷️
@@ -3000,7 +3001,7 @@ ${readmore}
 > 𝐟𝐥𝐢𝐩𝐭𝐞𝐱𝐭 ◁️❄️🕷️
 > 𝐞𝐦𝐨𝐣𝐢𝐦𝐢𝐱 ◁️❄️🕷️
 
-╰⭑➤➤⭑➤➤⭑➤ ᴅᴀᴛᴀʙᴀsᴇ ᴍᴇɴᴜ
+Okoye Joshua ᴅᴀᴛᴀʙᴀsᴇ ᴍᴇɴᴜ
 > 𝐚𝐝𝐝𝐯𝐢𝐝𝐞𝐨 ◁️❄️🕷️
 > 𝐚𝐝𝐝𝐢𝐦𝐚𝐠𝐞 ◁️❄️🕷️
 > 𝐚𝐝𝐝𝐬𝐭𝐢𝐜𝐤𝐞𝐫 ◁️❄️🕷️
@@ -3023,13 +3024,13 @@ ${readmore}
 > 𝐥𝐢𝐬𝐭𝐚𝐩𝐤 ◁️❄️🕷️
 > 𝐥𝐢𝐬𝐭𝐩𝐝𝐟 ◁️❄️🕷️
 
-╰⭑➤➤⭑➤➤⭑➤ ᴅᴏᴡɴ ᴍᴇɴᴜ
+Okoye Joshua ᴅᴏᴡɴ ᴍᴇɴᴜ
 > 𝐩𝐥𝐚𝐲 ◁️❄️🕷️
 > 𝐲𝐭𝐩𝐦𝟑 ◁️❄️🕷️
 > 𝐲𝐭𝐦𝐩𝟒 ◁️❄️🕷️
 > 𝐬𝐨𝐮𝐧𝐝𝟏 - 𝐬𝐨𝐮𝐧𝐝𝟏𝟔𝟏 ◁️❄️🕷️
 
-©𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐒𝐭𝐢𝐧𝐠𝐞𝐫-𝐕𝟐`
+© Powered By Okoye Joshua `
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         text: xeonmenuoh,
